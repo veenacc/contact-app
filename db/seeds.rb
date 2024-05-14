@@ -7,3 +7,9 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+# contact1= Contact.new(first_name:"pv", last_name:"v", email:"pvv", phone_number:4567)
+# contact1.save
+
+p Contact.find_by(first_name:"pv")
+p Contact.count
